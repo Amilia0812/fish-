@@ -3,25 +3,44 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>蝦皮網站</title>
+    <title>蝦皮購物 - 登入</title>
     <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-<div class="container">
-    <div class="login-box">
-        <h1 class="logo">蝦皮購物</h1>
-        <form id="login-form">
-            <input type="text" placeholder="手機號碼 / 使用者名稱 / Email" required />
-            <input type="password" placeholder="密碼" required />
-            <button type="submit">登入</button>
-            <div class="helper-links">
-                <a href="#">忘記密碼</a>
-                <span>｜</span>
-                <a href="#">註冊</a>
-            </div>
-        </form>
+<header class="top-bar">
+    <div class="logo">蝦皮購物</div>
+    <div class="help"><a href="#">需要幫助？</a></div>
+</header>
+
+<main class="main-container">
+    <div class="left-banner">
+        <div class="promo-text">
+            <h1>5.5 購物節</h1>
+            <p>寵愛媽咪｜免運｜蝦幣回饋</p>
+            <p>4/26 - 5/5</p>
+        </div>
     </div>
-</div>
+    <div class="right-login">
+        <div class="login-box">
+            <h2>登入</h2>
+            <form id="login-form">
+                <input type="text" placeholder="電話號碼/使用者名稱/Email" required />
+                <input type="password" placeholder="密碼" required />
+                <button type="submit" class="login-btn">登入</button>
+            </form>
+            <div class="login-footer">
+                <a href="#">忘記密碼</a>
+                <div class="divider">或</div>
+                <div class="social-buttons">
+                    <button class="social-btn fb">Facebook</button>
+                    <button class="social-btn google">Google</button>
+                </div>
+                <p class="signup-text">蝦皮新朋友？ <a href="#">註冊</a></p>
+            </div>
+        </div>
+    </div>
+</main>
+
 <script src="script.js"></script>
 </body>
 </html>

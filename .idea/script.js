@@ -1,4 +1,4 @@
 document.getElementById('login-form').addEventListener('submit', function (e) {
     e.preventDefault();
-    alert('模擬登入成功！(此為仿製頁面，請勿輸入真實資料)');
+    alert('這是一個仿製頁面，請勿輸入真實帳密。');
 });
