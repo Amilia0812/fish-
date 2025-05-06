@@ -111,37 +111,33 @@ input[type="password"] {
     text-decoration: none;
 }
 
-.divider {
-    margin: 12px 0;
+.line {
     border-top: 1px solid #ddd;
-    position: relative;
+    margin: 16px 0 8px;
 }
-.divider::after {
-    content: '或';
-    background: white;
-    position: absolute;
-    top: -10px;
-    left: 50%;
-    transform: translateX(-50%);
-    padding: 0 8px;
+
+.or {
+    font-size: 14px;
     color: #999;
+    margin-bottom: 12px;
 }
 
 .social-buttons {
     display: flex;
     justify-content: space-between;
-    margin-top: 12px;
+    gap: 8px;
 }
 
 .social-btn {
     flex: 1;
     padding: 10px;
-    margin: 0 4px;
+    text-align: center;
     border: 1px solid #ccc;
-    background-color: #fff;
-    cursor: pointer;
+    background-color: white;
     border-radius: 4px;
+    text-decoration: none;
     font-weight: bold;
+    font-size: 14px;
 }
 
 .fb {
@@ -152,10 +148,15 @@ input[type="password"] {
     color: #db4437;
 }
 
+.social-btn:hover {
+    background-color: #f0f0f0;
+}
+
 .signup-text {
     margin-top: 16px;
     font-size: 13px;
 }
+
 .signup-text a {
     color: #ee4d2d;
     text-decoration: none;
