@@ -140,13 +140,8 @@ input[type="password"] {
     font-size: 14px;
 }
 
-.fb {
-    color: #3b5998;
-}
-
-.google {
-    color: #db4437;
-}
+.fb { color: #3b5998; }
+.google { color: #db4437; }
 
 .social-btn:hover {
     background-color: #f0f0f0;
